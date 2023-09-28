@@ -95,6 +95,10 @@ body {
   display: inline-block;
   margin: 0px 8px;
 }
+
+.sosial {
+  color: black;
+}
 .link-down {
   display: inline;
   margin-left: 16px;
