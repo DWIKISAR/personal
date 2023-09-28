@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bg: white;
+  --orange: #fe4e30;
+}
+
+body {
+  background-color: #e3e7eb;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+/*navbar star*/
+.container {
+  margin: auto;
+}
+
+.bg-white {
+  background-color: var(--bg);
+}
+
+.nav-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a:hover {
+  background-color: var(--orange);
+}
+
+.home:hover {
+  background-color: var(--orange);
+}
+.contact {
+  padding: 5px 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 12px 0;
+  border: 0;
+  border-radius: 16px;
+  background-color: black;
+  color: var(--bg);
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  margin-top: 80px;
+  padding: 24px;
+  background-color: (--bg);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.4rem;
+}
+
+.my-profil {
+  width: 100%;
+  padding-bottom: 12px;
+  text-align: justify;
+}
+.contact:hover,
+.contact .active {
+  background-color: var(--orange);
+}
+
+.active:hover {
+  background-color: var(--orange);
+}
+
+.my-contact {
+  text-decoration: none;
+  padding: 5px 14px;
+  margin: 15px 0;
+  background-color: black;
+  color: var(--bg);
+  border-radius: 1.4rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.my-contact:hover {
+  background-color: var(--orange);
+}
+
+.contact-sosial {
+  list-style-type: none;
+  margin: 16 0px;
+  padding: 0;
+  font-size: 2em;
+  color: black;
+}
+
+.contact-sosial > li {
+  display: inline-block;
+  margin: 0px 8px;
+}
+.link-down {
+  display: inline;
+  margin-left: 16px;
+}
+.link-down {
+  text-decoration: none;
+  color: black;
+}
+
+.link-down:hover {
+  color: var(--orange);
+}
+.sosial:hover {
+  color: var(--orange);
+}
+/* Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #f4f3f3;
+  display: flex;
+  align-items: center;
+  height: 8vh;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 25px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--orange);
+}
+
+.nav-left {
+  flex: 50%;
+}
+
+.dumbways-logo {
+  max-width: 40px;
+}
+
+.my-image {
+  margin: 0;
+  margin-left: 24px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.3rem;
+}
+
+/* responsive */
+/* laptop */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+.my-image > img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.my-image > figcaption {
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.my-image > figcaption > h1 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.my-image > figcaption > p {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.item-colapse {
+  color: black;
+}
