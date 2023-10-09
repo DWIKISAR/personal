@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bg: white;
+  --orange: #fe4e30;
+  --bg-body: #dbdbdb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #e3e7eb;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  display: block;
+}
+
+/*Navbar star*/
+// Navbar => navbar.css
+/*Navbar End*/
+
+/*Page Web App Star*/
+
+.about {
+  padding: 1rem 4% 1.4rem;
+  background-color: #e3e7eb;
+  font-family: "Poppins", sans-serif;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 3.6rem;
+  margin: 8rem 0rem 4rem;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.about h2 {
+  font-family: "Poppins", sans-serif;
+}
+.about .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .row .about-img {
+  float: right;
+  padding-right: 2rem;
+}
+
+.about .row .about-img img {
+  height: 36rem;
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  margin-right: 14rem;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0;
+  margin-top: -18x;
+}
+
+.content {
+  margin: 1.6rem;
+}
+.content-item .content-date i {
+  display: flex;
+  width: 100%;
+  margin: 15px;
+  margin-left: unset;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bi-calendar3::before {
+  content: "\f214";
+  width: 50px;
+  font-size: 35px;
+}
+.bi-clock-history::before {
+  content: "\f292";
+  width: 50px;
+  font-size: 35px;
+}
+
+.content-item .content-date content-date-year {
+  position: relative;
+  display: flex;
+  font-size: 40px;
+}
+/*Technologi icon*/
+.content-technologi {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column-reverse;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.content-technologi .content-tecnologi-temp {
+  width: 100%;
+  display: flex;
+  justify-content: normal;
+}
+.content-tecnologi-temp .logo-tech {
+  width: auto;
+  padding: 0;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.content-tecnologi-temp2 .logo-tech {
+  width: 100%;
+  padding: 20px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row .content-technologi .socketIO {
+  width: 50px;
+  margin-top: 21px;
+}
+.about {
+  margin: auto;
+}
+.about p {
+  margin-top: 45px;
+  text-align: justify;
+}
+/*Laptop*/
+@media (min-width: 1366px) {
+  .about {
+    width: 85%;
+  }
+}

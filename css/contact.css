@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bg: white;
+  --orange: #fe4e30;
+}
+
+* {
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Login Star*/
+
+form div {
+  width: 350px;
+  height: 35px;
+  margin: 50px auto;
+  margin-top: 35px;
+  padding: 7px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  background-color: #dfdede;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  resize: none;
+}
+
+button {
+  background-color: #29293f;
+  color: white;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: var(--orange);
+}
+/* Form Login End*/
